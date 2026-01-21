@@ -205,3 +205,19 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Custom
+*.parquet
+
+
+# Data directories
+ny_taxi_postgres_data/
+
+# Terraform
+.terraform/
+terraform.tfstate*
+*.tfvars
+
+# Keys and secrets
+keys/
+credentials.json
