@@ -221,3 +221,5 @@ terraform.tfstate*
 # Keys and secrets
 keys/
 credentials.json
+.env
+.env_encoded
