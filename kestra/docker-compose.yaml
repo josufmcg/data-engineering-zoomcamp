@@ -73,6 +73,11 @@ services:
             type: local
             local:
               basePath: "/app/storage"
+          ai:
+            type: gemini
+            gemini:
+              model-name: "gemini-2.5-flash"
+              api-key: "${GEMINI_API_KEY}"
           queue:
             type: postgres
           tasks:
