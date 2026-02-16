@@ -208,6 +208,7 @@ __marimo__/
 
 # Custom
 *.parquet
+*.csv.gz
 
 
 # Data directories
